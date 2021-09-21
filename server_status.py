@@ -9,8 +9,8 @@ import logging
 ##########
 # CONFIG #
 ##########
-scrape_url = "https://www.newworld.com/en-us/support/server-status" # The page to scrape for server status - probably won't need to change
-webhook_url = "https://discord.com/api/webhooks/YOUR_CHANNEL_WEBHOOK_HERE" # Your discord webhook URL - https://discord.com/api/webhooks/889857290566529094/JDe1HKMBeWIZmEjn7EjPEdhunSzCvqp1q5s2mZCPzVp6b_KX2u9q5pGnu1wJAkoMCD_v
+scrape_url = "https://www.newworld.com/it-it/support/server-status" # The page to scrape for server status - probably won't need to change
+webhook_url = "https://discord.com/api/webhooks/889857290566529094/JDe1HKMBeWIZmEjn7EjPEdhunSzCvqp1q5s2mZCPzVp6b_KX2u9q5pGnu1wJAkoMCD_v"
 
 filter_regions = False # Set to True to only post updates about certain regions
 monitored_regions = ["US East", "US West"] # List of regions to update
